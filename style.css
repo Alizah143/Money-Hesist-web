@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(money-heist-segtwbhffwy01w82\ \(1\).jpg);
+    background-size: cover;
+}
+.top{
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+.logo img{
+    width: 150px;
+    margin-top: -2rem;
+}
+.navbar{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+}
+.navbar ul li a:hover{
+    color: red;
+}
+#icons{
+   /* margin-left: 7rem;*/
+   margin-left: -7rem;
+    margin-top: 1.7rem;
+    color: white;
+    font-size: 19px;
+}
+#icons i{
+    padding: 5px;
+}
+.hero img{
+    border-radius: 50px;
+    width: 60px;
+    cursor: pointer;
+    margin-top: -3rem;
+}
+.sub-menu-wrap{
+    position: absolute;
+   width: 320px;
+    right: 5%;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+}
+.sub-menu{
+    background: #fff;
+    padding: 50px;
+    margin: 10px;
+}
+.hero h2{
+    margin-top: -3rem;
+    margin-left: 4rem;
+    display: flex;
+}
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0  10px;
+}
+.sub-menu-link{
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+.sub-menu-link p{
+    width: 100%;
+}
+.sub-menu-link img{
+    width: 40px;
+    background: #e5e5e5;
+    border-radius: 50%;
+    padding: 8px;
+    margin-top: -10px;
+    margin-right: 15px;
+}
+.sub-menu-link span{
+    font-size: 19px;
+    transition: transform 0.5s;
+}
+.sub-menu-link:hover span{
+    transform: translateX(5px);
+} 
+.sub-menu-link:hover p{
+    font-weight: 600;
+}
+.middle{
+    margin-top: 4rem;
+    color: white;
+}
+.middle h2{
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-top: -4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+.netflix img{
+    width: 80px;
+    margin: 5px;
+}
+.main h1{
+    margin: 5px;
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para{
+    margin-top: -15rem;
+    margin-left: -15rem;
+}
+.para p{
+    padding: 15rem;
+    font-size: 15px;
+    color: darkgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    margin: 5px;
+}
+.button{
+  display: flex;
+}
+.play{
+    margin-top: -13rem;
+}
+.play a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 9px;
+    border-radius: 15px;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 19px;
+}
+.play i{
+    margin: 5px;
+}
+.more-info{
+    margin-top: -12.9rem;
+    margin-left: 1rem;
+}
+.more-info a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 9px;
+    border-radius: 15px;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 19px;
+}
+.more-info i{
+    margin: 5px;
+}
+.last{
+    padding: 12px;
+   margin-top: -5rem;
+}
+.last a{
+    text-decoration: none;
+    color: darkgray;
+    padding: 7px;
+    font-size: 17px;
+}
+.last a:hover{
+    color: white;
+}
